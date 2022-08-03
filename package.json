@@ -1,6 +1,8 @@
 {
-  "name": "mean-front",
-  "version": "0.0.0",
+  "name": "mean-app-task-list",
+  "version": "1.0.0",
+  "author": "Luis Enrique Guerrero",
+  "licence": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
