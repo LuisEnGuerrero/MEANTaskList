@@ -1,0 +1,23 @@
+
+  <div class="container">
+    <form [formGroup]="miFormulario" (ngSubmit)="update()" class="col s12">
+      <div class="row">
+        <h2>Actualizar Tarea</h2>
+        <hr>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mode_edit</i>
+          <input formControlName="newTask" id="title" type="text" class="validate">
+          <label for="title">Título</label>
+          <span class="helper-text" data-error="wrong" data-success="right">Actualiza el Título de la Tarea</span>
+        </div>
+        <div class="input-field col s12">
+          <textarea formControlName="detail" id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Detalles</label>
+        </div>
+        <div class="input-field col s6">
+            <button class="btn waves-effect waves-light light-green darken-2"><i class="material-icons prefix">save</i></button>
+        </div>
+      </div>
+    </form>
+  </div>
+        
