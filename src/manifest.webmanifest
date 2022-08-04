@@ -1,7 +1,7 @@
 {
-  "name": "meanFront",
-  "short_name": "meanFront",
-  "theme_color": "#1976d2",
+  "name": "mean-app-task-list",
+  "short_name": "TASKList",
+  "theme_color": "#f5434c",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
